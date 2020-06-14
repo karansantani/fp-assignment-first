@@ -1,1 +1,82 @@
 /* You can add global styles to this file, and also import other style files */
+
+.container {
+  min-width: 1450px;
+  position: relative;
+}
+
+.container >* {
+  display: block;
+}
+.input-container {
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.icon {
+  padding: 10px;
+  background: white;
+  color: grey;
+  min-width: 50px;
+  text-align: center;
+  border: 1px solid grey;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid white;
+}
+
+.btn {
+  background-color: #357bb8;
+  border-radius: 26px;
+  width: 14vw;
+  color: white;
+  font-weight: 900;
+  margin-top: 5vh;
+  position: relative;
+  left: 18%;
+}
+
+.btn:hover {
+  opacity: 1;
+  background-color: #3d5a99;
+  color: white;
+}
+ a {
+   text-decoration: none;
+   color: white;
+   &:active button {
+     outline: none;
+
+     [attr]text {
+       margin-left: 0;
+       transition: linear 2s ease-in-out;
+     }
+     [attr]text:visited {
+       margin-left: -8px;
+     }
+   }
+ }
+
+.switch-to-signin {
+  animation-name: signin;
+  animation-duration: 1s;
+  // animation-timing-function: ;
+  animation-delay: 200ms;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  // animation-fill-mode: ;
+  // animation-play-state: ;
+}
+
+@keyframes signin {
+
+}

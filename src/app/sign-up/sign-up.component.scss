@@ -1,0 +1,94 @@
+.row {
+  .app-bg {
+    background: url("../../assets/Blue\ bg\ 2.png");
+    width: 29vw;
+    height: 100vh;
+  }
+  .sign-in-placeholder {
+    .app-logo {
+      margin-top: 25vh;
+      img {
+        position: relative;
+        left: 35%;
+      }
+    }
+    .enquiry {
+      text-align: center;
+      margin-top: 4vh;
+      color: white;
+      font-weight: 700;
+      font-size: 30px;
+    }
+    .separator {
+      border-bottom: 4px solid #7facd2;
+      width: 30%;
+      margin: auto;
+      margin-top: 3vh;
+    }
+    .message {
+      text-align: center;
+      color: white;
+      font-size: 20px;
+      font-weight: 500;
+      margin-top: 15px;
+    }
+    .sign-in-switch {
+      button {
+        border-radius: 35px;
+        color: white;
+        background: transparent;
+        border: 2px solid white;
+        width: 55%;
+        height: 7vh;
+        position: relative;
+        left: 23%;
+        margin-top: 8vh;
+        font-size: 19px;
+        font-weight: 700;
+      }
+    }
+  }
+
+  .sign-up {
+    margin-left: 15vw;
+    .heading {
+      margin-top: 15vh;
+      font-size: 36px;
+      font-weight: 700;
+      color: #357BB8;
+      margin-left: 15px;
+    }
+
+    .separator {
+      border-bottom: 4px solid #357BB8;
+      width: 30%;
+      margin: auto;
+      margin-top: 3vh;
+      border-bottom: 4px solid #357BB8;
+      width: 30%;
+      margin: auto;
+      margin-top: 3vh;
+      position: relative;
+      margin-bottom: 40px;
+    }
+    .social-signup {
+      .facebook {
+        margin-left: 35%;
+        margin-right: 8%;
+      }
+      img {
+        width: 45px;
+        height: 45px;
+      }
+    }
+  }
+
+  .suggest {
+    color: #aeaeae;
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-top: 4vh;
+    margin-bottom: 5vh;
+  }
+}
